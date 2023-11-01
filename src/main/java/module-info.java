@@ -4,6 +4,9 @@ module com.example.learn2 {
     requires javafx.graphics;
     requires javafx.base;
     requires jlayer;
+    requires java.desktop;
+    requires java.flac.encoder;
+    requires json;
 
     opens com.example.learn2 to javafx.fxml, javafx.controls, javafx.graphics, javafx.base, javafx.media;
 

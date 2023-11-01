@@ -37,5 +37,7 @@
             <Button mnemonicParsing="false" onAction="#speak2" prefHeight="25.0" prefWidth="86.0" text="Speak" />
          </children>
       </HBox>
+      <Button layoutX="275.0" layoutY="68.0" mnemonicParsing="false" onAction="#stop" text="stop" />
+      <Button layoutX="139.0" layoutY="68.0" mnemonicParsing="false" onAction="#record" text="record" />
    </children>
 </AnchorPane>
